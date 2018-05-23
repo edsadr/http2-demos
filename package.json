@@ -1,0 +1,25 @@
+{
+  "name": "http2-demos",
+  "version": "1.0.0",
+  "description": "Some HTTP/2 demos with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "hello": "node hello-world"
+  },
+  "author": "edsadr",
+  "license": "MIT",
+  "dependencies": {
+    "mime-types": "^2.1.18"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https:https://github.com/edsadr/http2-demos.git"
+  }
+}
